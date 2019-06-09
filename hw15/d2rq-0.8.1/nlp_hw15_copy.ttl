@@ -1,0 +1,50 @@
+@prefix map: <#> .
+@prefix db: <> .
+@prefix vocab: <vocab/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix jdbc: <http://d2rq.org/terms/jdbc/> .
+
+map:database a d2rq:Database;
+	d2rq:jdbcDriver "com.mysql.jdbc.Driver";
+	d2rq:jdbcDSN "jdbc:mysql:///nlp_hw15";
+	d2rq:username "root";
+	d2rq:password "nBGe3+ahrer";
+	jdbc:zeroDateTimeBehavior "convertToNull";
+	jdbc:autoReconnect "true";
+	.
+
+# Table users
+map:users a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "users/@@users.id@@";
+	d2rq:class vocab:users;
+	d2rq:classDefinitionLabel "users";
+	.
+map:users__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:users;
+	d2rq:property rdfs:label;
+	d2rq:pattern "users #@@users.id@@";
+	.
+map:users_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:users;
+	d2rq:property vocab:users_id;
+	d2rq:propertyDefinitionLabel "users id";
+	d2rq:column "users.id";
+	d2rq:datatype xsd:integer;
+	.
+map:users_name a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:users;
+	d2rq:property vocab:users_name;
+	d2rq:propertyDefinitionLabel "users name";
+	d2rq:column "users.name";
+	.
+map:users_password a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:users;
+	d2rq:property vocab:users_password;
+	d2rq:propertyDefinitionLabel "users password";
+	d2rq:column "users.password";
+	.
+
