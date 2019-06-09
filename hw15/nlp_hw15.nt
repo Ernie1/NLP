@@ -1,0 +1,46 @@
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#profiles/1> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles_uid> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/1> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#profiles/2> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles_uid> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/2> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#profiles/3> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles_uid> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/3> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/1> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users_password> "123456" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/1> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users_name> "lihua" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/1> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/1> <http://www.w3.org/2000/01/rdf-schema#label> "users #1" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/2> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users_password> "123456" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/2> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users_name> "xiaohua" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/2> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users_id> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/2> <http://www.w3.org/2000/01/rdf-schema#label> "users #2" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/3> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users_password> "1234" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/3> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users_name> "cheng" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/3> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users_id> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/3> <http://www.w3.org/2000/01/rdf-schema#label> "users #3" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#users/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#profiles/1> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles_birth> "1996" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#profiles/1> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#profiles/1> <http://www.w3.org/2000/01/rdf-schema#label> "profiles #1" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#profiles/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#profiles/2> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles_birth> "1997" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#profiles/2> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles_id> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#profiles/2> <http://www.w3.org/2000/01/rdf-schema#label> "profiles #2" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#profiles/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#profiles/3> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles_birth> "1998" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#profiles/3> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles_id> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#profiles/3> <http://www.w3.org/2000/01/rdf-schema#label> "profiles #3" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/nlp_hw15.nt#profiles/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users_id> <http://www.w3.org/2000/01/rdf-schema#label> "users id" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles_id> <http://www.w3.org/2000/01/rdf-schema#label> "profiles id" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users_password> <http://www.w3.org/2000/01/rdf-schema#label> "users password" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users_password> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles_uid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users_name> <http://www.w3.org/2000/01/rdf-schema#label> "users name" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles> <http://www.w3.org/2000/01/rdf-schema#label> "profiles" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users> <http://www.w3.org/2000/01/rdf-schema#label> "users" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/users> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles_birth> <http://www.w3.org/2000/01/rdf-schema#label> "profiles birth" .
+<file:///Users/zjq/remote/NLP/hw15/d2rq-0.8.1/vocab/profiles_birth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .

@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#包含">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#校区"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#校园"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#属于"/>
+            </rdf:Description>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#包含"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#属于">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#校园"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#校区"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#校区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#校区"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#校园 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#校园">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#校区"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#东校园 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#东校园">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#校园"/>
+        <包含 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#政治与公共事务管理学院"/>
+        <包含 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#法学院"/>
+        <包含 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#管理学院"/>
+        <属于 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#广州校区"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#中国语言文学系 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#中国语言文学系">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#中国语言文学系（珠海） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#中国语言文学系（珠海）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#中山医学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#中山医学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#光华口腔医学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#光华口腔医学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#公共卫生学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#公共卫生学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#公共卫生学院（深圳） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#公共卫生学院（深圳）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#北校园 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#北校园">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#校园"/>
+        <包含 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#中山医学院"/>
+        <包含 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#光华口腔医学院"/>
+        <包含 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#公共卫生学院"/>
+        <属于 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#广州校区"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#医学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#医学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#南校园 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#南校园">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#校园"/>
+        <包含 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#中国语言文学系"/>
+        <包含 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#历史学系"/>
+        <包含 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#哲学系"/>
+        <属于 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#广州校区"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#历史学系 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#历史学系">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#历史学系（珠海） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#历史学系（珠海）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#哲学系 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#哲学系">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#哲学系（珠海） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#哲学系（珠海）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#广州校区 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#广州校区">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#校区"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#政治与公共事务管理学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#政治与公共事务管理学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#法学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#法学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#深圳校区 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#深圳校区">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#校区"/>
+        <包含 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#公共卫生学院（深圳）"/>
+        <包含 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#医学院"/>
+        <包含 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#药学院（深圳）"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#珠海校区 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#珠海校区">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#校区"/>
+        <包含 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#中国语言文学系（珠海）"/>
+        <包含 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#历史学系（珠海）"/>
+        <包含 rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#哲学系（珠海）"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#管理学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#管理学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#药学院（深圳） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#药学院（深圳）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjq/ontologies/2019/4/untitled-ontology-2#学院"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
